@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-FROM ubuntu:16.04
+FROM buildpack-deps:xenial
 
 MAINTAINER Aleksandr Zykov <tiger@vilijavis.lt>
 
