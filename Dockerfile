@@ -14,10 +14,11 @@ RUN ( \
 
 RUN ( \
         apt-get install -qy --no-install-recommends \
+            ca-certificates \
             coreutils \
             dnsutils \
             iputils-ping \
-            ca-certificates \
+            iproute2 \
             net-tools \
             iptables \
             figlet \
